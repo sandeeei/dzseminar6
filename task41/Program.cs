@@ -14,7 +14,7 @@ int[] array = new int[size];
 
 for (int i = 0; i < size; i++)
 {
-    Console.Write($"Введите элемент массива под индексом  {i}: \t");
+    Console.Write($"Введите элемент массива под индексом  {i+1}: \t");
     array[i]=Convert.ToInt32(Console.ReadLine());
 }
 
